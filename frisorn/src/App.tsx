@@ -71,15 +71,13 @@ function App() {
         <Page />
       </main>
       <Footer />
-      {import.meta.env.DEV && palettes.length > 1 ? (
-        <button
-          type="button"
-          onClick={cyclePalette}
-          className="fixed bottom-6 right-6 z-50 rounded-[var(--radius-pill)] border-[var(--border-width)] border-border bg-surface px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-text shadow-md transition hover:-translate-y-0.5"
-        >
-          Fargetema: {palettes[paletteIndex]?.name ?? 'Default'}
-        </button>
-      ) : null}
+      <button
+        type="button"
+        onClick={cyclePalette}
+        className="fixed bottom-6 right-6 z-50 rounded-[var(--radius-pill)] border-[var(--border-width)] border-border bg-surface px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-text shadow-md transition hover:-translate-y-0.5"
+      >
+        Fargetema: {palettes[paletteIndex]?.name ?? 'Default'}
+      </button>
     </div>
   )
 }
