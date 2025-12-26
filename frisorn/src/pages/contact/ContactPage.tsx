@@ -3,8 +3,8 @@ import Box from '../../components/elements/Box'
 function ContactPage() {
   return (
     <section>
-      <Box className="w-full rounded-[28px] p-8 sm:p-10">
-        <div className="flex flex-wrap items-start justify-between gap-6">
+      <Box className="w-full p-8 sm:p-10">
+        <div className="space-y-3">
           <div>
             <p className="text-[0.9rem] uppercase tracking-[0.3em] text-accent-dark">
               Kontakt
@@ -13,14 +13,14 @@ function ContactPage() {
               Kontakt oss
             </h2>
           </div>
-          <p className="mt-5 max-w-md text-sm text-muted">
-            Ta kontakt for timebestilling eller sporsmal. Vi svarer raskt og
+          <p className="max-w-md text-lg text-muted">
+            Ta kontakt for timebestilling eller spørsmål. Vi svarer raskt og
             finner riktig behandling for deg.
           </p>
         </div>
         <div className="mt-6 grid gap-5 md:grid-cols-2 md:items-stretch">
           <div className="grid gap-5 md:grid-rows-2">
-            <div className="flex h-full flex-col justify-center rounded-2xl border border-border bg-surface-warm p-5 text-base">
+            <div className="flex h-full flex-col justify-center rounded-[var(--radius-card)] border-[var(--border-width)] border-border bg-surface-warm p-5 text-base">
               <div className="flex items-center gap-2">
                 <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-surface text-text">
                   <svg
@@ -46,7 +46,7 @@ function ContactPage() {
               </div>
             </div>
 
-            <div className="flex h-full flex-col justify-center rounded-2xl border border-border bg-surface-warm p-5 text-base">
+            <div className="flex h-full flex-col justify-center rounded-[var(--radius-card)] border-[var(--border-width)] border-border bg-surface-warm p-5 text-base">
               <div className="flex items-center gap-2">
                 <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-surface text-text">
                   <svg
@@ -63,7 +63,7 @@ function ContactPage() {
                     <circle cx="12" cy="12" r="3" />
                   </svg>
                 </span>
-                <h3 className="font-['Playfair_Display'] text-lg text-text">Besok oss</h3>
+                <h3 className="font-['Playfair_Display'] text-lg text-text">Besøk oss</h3>
               </div>
               <div className="mt-2 space-y-1 text-muted">
                 <p>Dybdahls vei 3-5</p>
@@ -72,7 +72,7 @@ function ContactPage() {
             </div>
           </div>
 
-          <div className="h-full rounded-2xl border border-border bg-surface-warm p-5 text-base">
+          <div className="h-full rounded-[var(--radius-card)] border-[var(--border-width)] border-border bg-surface-warm p-5 text-base">
             <div className="flex items-center gap-2">
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-surface text-text">
                 <svg

@@ -5,7 +5,8 @@ type BoxProps = HTMLAttributes<HTMLDivElement> & {
   children?: ReactNode
 }
 
-const baseClasses = 'rounded-2xl bg-surface p-6 shadow-elevated'
+const baseClasses =
+  'rounded-[var(--radius-shell)] border-[var(--border-width)] border-border bg-surface p-6 shadow-elevated'
 
 function Box({ className, children }: BoxProps) {
   const classes = [baseClasses, className].filter(Boolean).join(' ')

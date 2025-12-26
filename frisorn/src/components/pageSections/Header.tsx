@@ -32,9 +32,9 @@ function Header() {
   }, [])
 
   return (
-    <div className="sticky top-0 z-50 px-6 pt-2 sm:px-8 lg:px-12">
+    <div className="sticky top-0 z-50 px-7 pt-2 sm:px-10 lg:px-14">
       <header
-        className={`flex w-full items-center justify-between gap-4 rounded-[28px] bg-surface px-6 shadow-elevated transition-all duration-200 sm:px-7 ${
+        className={`flex w-full items-center justify-between gap-4 rounded-[var(--radius-shell)] border-[var(--border-width)] border-border bg-surface px-6 shadow-elevated transition-all duration-200 sm:px-7 ${
           isCompact ? 'py-2' : 'py-3'
         }`}
       >
@@ -70,7 +70,7 @@ function Header() {
             onClick={() => setIsMenuOpen((open) => !open)}
             aria-label="Åpne meny"
             aria-expanded={isMenuOpen}
-            className="flex items-center justify-center rounded-full border border-border bg-surface px-3 py-2 text-text transition hover:-translate-y-0.5 md:hidden"
+            className="flex items-center justify-center rounded-[var(--radius-pill)] border-[var(--border-width)] border-border bg-surface px-3 py-2 text-text transition hover:-translate-y-0.5 md:hidden"
           >
             <span className="flex h-4 w-5 flex-col justify-between">
               <span className="h-0.5 w-full rounded-full bg-text" />
@@ -81,7 +81,7 @@ function Header() {
         </div>
       </header>
       {isMenuOpen ? (
-        <div className="mt-3 w-full rounded-[24px] border border-border-soft bg-surface px-6 py-5 shadow-elevated md:hidden">
+        <div className="mt-3 w-full rounded-[var(--radius-card)] border-[var(--border-width)] border-border bg-surface px-6 py-5 shadow-elevated md:hidden">
           <nav className="flex flex-col gap-4 text-sm uppercase tracking-[0.2em] text-text">
             {navItems.map((item) => (
               <a

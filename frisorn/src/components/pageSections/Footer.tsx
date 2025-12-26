@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer className="px-6 pb-6 sm:px-8 lg:px-12">
-      <div className="w-full rounded-[28px] bg-surface shadow-elevated">
+    <footer className="px-7 pb-6 sm:px-10 lg:px-14">
+      <div className="w-full rounded-[var(--radius-shell)] border-[var(--border-width)] border-border bg-surface shadow-elevated">
         <div className="grid gap-8 px-7 py-8 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
           <div className="space-y-3">
             <div>

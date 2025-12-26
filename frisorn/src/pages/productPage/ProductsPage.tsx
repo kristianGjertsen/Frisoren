@@ -12,7 +12,7 @@ const getProductImage = (fileName: string) =>
 function ProductsPage() {
   return (
     <section>
-      <Box className="w-full rounded-[28px] p-8 sm:p-10">
+      <Box className="w-full p-8 sm:p-10">
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div>
             <p className="text-[0.7rem] uppercase tracking-[0.3em] text-accent-dark">
@@ -27,26 +27,26 @@ function ProductsPage() {
             hår og hodebunn.
           </p>
         </div>
-        <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4 justify-items-center">
+        <div className="mt-6 flex flex-wrap justify-center gap-4">
           {/* Loop over alle proudkter og display */}
           {products.map((product) => (
             <div
               key={product.title}
-              className="flex w-full flex-col items-center rounded-2xl border border-border bg-surface-warm p-5 text-center text-sm"
+              className="flex min-h-[210px] w-[180px] flex-col items-center rounded-[var(--radius-card)] border-[var(--border-width)] border-border bg-surface-warm p-4 text-center text-sm"
             >
               {product.imgSrc ? (
                 <img
                   src={getProductImage(product.imgSrc)}
                   alt={product.title}
-                  className="h-50 w-auto max-w-[220px] rounded-xl object-cover"
+                  className="h-30 w-auto max-w-[130px] rounded-[var(--radius-image)] object-cover"
                   loading="lazy"
                 />
               ) : null}
-              <h3 className="mt-4 font-['Playfair_Display'] text-lg text-text">
+              <h3 className="mt-3 font-['Playfair_Display'] text-base text-text text-lg">
                 {product.title}
               </h3>
-              <p className="mt-2 text-muted">{product.description}</p>
-              <span className="mt-4 inline-block font-semibold text-accent-dark">
+              <p className="mt-2 text-s text-muted">{product.description}</p>
+              <span className="mt-auto inline-block text-sm font-semibold text-accent-dark">
                 {product.price}
               </span>
             </div>

@@ -17,7 +17,7 @@ const routes = {
 
 function NotFound() {
   return (
-    <div className="w-full rounded-[28px] bg-surface p-8 text-text shadow-elevated">
+    <div className="w-full rounded-[var(--radius-shell)] border-[var(--border-width)] border-border bg-surface p-8 text-text shadow-elevated">
       <p className="text-xs uppercase tracking-[0.25em] text-accent-dark">404</p>
       <h1 className="mt-2 font-['Playfair_Display'] text-3xl">Fant ikke siden</h1>
       <p className="mt-3 text-sm text-muted">Gå tilbake til startsiden.</p>
@@ -67,7 +67,7 @@ function App() {
     <div className="bg-background bg-page text-text">
       <Header />
 
-      <main className="flex flex-col gap-10 px-6 pb-16 pt-10 sm:px-8 lg:px-12">
+      <main className="flex flex-col gap-10 px-7 pb-16 pt-10 sm:px-10 lg:px-14">
         <Page />
       </main>
       <Footer />
@@ -75,7 +75,7 @@ function App() {
         <button
           type="button"
           onClick={cyclePalette}
-          className="fixed bottom-6 right-6 z-50 rounded-full border border-border bg-surface px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-text shadow-md transition hover:-translate-y-0.5"
+          className="fixed bottom-6 right-6 z-50 rounded-[var(--radius-pill)] border-[var(--border-width)] border-border bg-surface px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-text shadow-md transition hover:-translate-y-0.5"
         >
           Fargetema: {palettes[paletteIndex]?.name ?? 'Default'}
         </button>
