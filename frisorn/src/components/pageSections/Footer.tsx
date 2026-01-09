@@ -2,7 +2,27 @@ function Footer() {
   return (
     <footer className="px-7 pb-6 sm:px-10 lg:px-14">
       <div className="w-full rounded-[var(--radius-shell)] border-[var(--border-width)] border-border bg-surface shadow-elevated">
-        <div className="grid gap-8 px-7 py-8 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
+        <div className="flex flex-col gap-5 px-7 py-8 md:hidden">
+          <div>
+            <span className="block font-['Playfair_Display'] text-2xl tracking-[0.06em]">
+              Frisor'n
+            </span>
+            <span className="text-xs uppercase tracking-[0.25em] text-muted">
+              Dybdahls vei 3-5
+            </span>
+          </div>
+          <p className="text-sm text-muted">
+            Se åpningstider og kontaktinformasjon samlet på én side.
+          </p>
+          <a
+            href="/kontakt"
+            className="inline-flex items-center justify-center rounded-[var(--radius-pill)] border-[var(--border-width)] border-border bg-button px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-button-text hover:ring-2 hover:ring-accent"
+          >
+            Se åpningstider / Kontakt oss
+          </a>
+        </div>
+
+        <div className="hidden gap-8 px-7 py-8 md:grid md:grid-cols-3 lg:grid-cols-[1.2fr_1fr_1fr]">
           <div className="space-y-3">
             <div>
               <span className="block font-['Playfair_Display'] text-2xl tracking-[0.06em]">
@@ -75,7 +95,7 @@ function Footer() {
             </a>
           </div>
 
-          <div className="space-y-3 text-sm lg:col-start-4">
+          <div className="space-y-3 text-sm">
             <h3 className="font-['Playfair_Display'] text-lg">Apningstider</h3>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-1 text-muted">
