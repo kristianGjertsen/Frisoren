@@ -22,10 +22,10 @@ function AboutUsInfo() {
                         Om oss
                     </p>
                     <h2 className="mt-2 font-['Playfair_Display'] text-2xl text-text sm:text-3xl">
-                        Lokale frisorer med fokus på kvalitet.
+                        Lokal frisør med fokus på kvalitet.
                     </h2>
                     <p className="mt-3 text-sm text-muted sm:text-base">
-                        Hos Frisør’n møter du én frisør som lytter til deg og dine ønsker,
+                        Hos Frisør’n møter du en frisør som lytter til deg og dine ønsker,
                         setter av tid til grundig konsultasjon, fargevalg og styling,
                         og jobber med kvalitetsprodukter.
 
