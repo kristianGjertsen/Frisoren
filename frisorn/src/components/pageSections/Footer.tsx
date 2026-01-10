@@ -112,6 +112,17 @@ function Footer() {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col gap-1 border-t border-border px-7 py-1 text-xs text-muted md:flex-row md:items-center md:justify-between">
+          <a
+            href="https://kristiangjertsen.no"
+            target="_blank"
+            rel="noreferrer"
+            className="font-semibold hover:text-accent-dark"
+          >
+            Utviklet av kristiangjertsen.no
+          </a>
+        </div>
       </div>
     </footer>
   )
