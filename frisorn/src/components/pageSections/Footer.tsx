@@ -8,7 +8,7 @@ function Footer() {
               Frisor'n
             </span>
             <span className="text-xs uppercase tracking-[0.25em] text-muted">
-              Dybdahls vei 3-5
+              Dybdahls veg 3-5
             </span>
           </div>
           <p className="text-sm text-muted">
@@ -29,7 +29,7 @@ function Footer() {
                 Frisor'n
               </span>
               <span className="text-xs uppercase tracking-[0.25em] text-muted">
-                Dybdahls vei 3-5
+                Dybdahls veg 3-5
               </span>
             </div>
           </div>
@@ -91,12 +91,12 @@ function Footer() {
                 <path d="M12 22s7-4.35 7-10a7 7 0 1 0-14 0c0 5.65 7 10 7 10z" />
                 <circle cx="12" cy="12" r="3" />
               </svg>
-              Dybdahls vei 3-5
+              Dybdahls veg 3-5
             </a>
           </div>
 
           <div className="space-y-3 text-sm">
-            <h3 className="font-['Playfair_Display'] text-lg">Apningstider</h3>
+            <h3 className="font-['Playfair_Display'] text-lg">Åpningstider</h3>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-1 text-muted">
                 <p>Mandag: 09:00 - 17:00</p>

@@ -71,7 +71,7 @@ function ContactPage() {
                 <h3 className="font-['Playfair_Display'] text-lg text-text">Besøk oss</h3>
               </div>
               <div className="mt-2 space-y-1 text-muted">
-                <p>Dybdahls vei 3-5</p>
+                <p>Dybdahls veg 3-5</p>
                 <p>7051 Trondheim</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ function ContactPage() {
                   <path d="M12 7v5l3 3" />
                 </svg>
               </span>
-              <h3 className="font-['Playfair_Display'] text-lg text-text">Apningstider</h3>
+              <h3 className="font-['Playfair_Display'] text-lg text-text">Åpningstider</h3>
             </div>
             <ul className="mt-2 space-y-1 text-muted">
               <li>Mandag: 09:00 - 17:00</li>

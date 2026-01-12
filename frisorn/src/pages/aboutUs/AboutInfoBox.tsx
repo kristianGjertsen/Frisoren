@@ -47,7 +47,7 @@ function AboutUsInfo() {
                         <Button
                             href="/kontakt"
                         >
-                            Sporsmal? Ta kontakt
+                            Spørsmål? Ta kontakt
                         </Button>
                     </div>
                 </div>

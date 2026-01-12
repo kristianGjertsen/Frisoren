@@ -42,7 +42,7 @@ function Header() {
             Frisør'n
           </h1>
           <span className="text-xs uppercase tracking-[0.25em] text-muted">
-            Dybdahls vei 3-5
+            Dybdahls veg 3-5
           </span>
         </div>
         <nav className="hidden flex-1 items-center justify-center gap-4 text-[0.65rem] uppercase tracking-[0.14em] text-text md:flex lg:gap-6 lg:text-[0.8rem] lg:tracking-[0.18em]">
