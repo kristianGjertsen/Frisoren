@@ -31,8 +31,7 @@ function AboutUsInfo() {
 
                     </p>
                     <p className="mt-3 text-sm text-muted sm:text-base">
-                        Vi tilbyr klipp for dame, herre og barn, samt farge, toner og
-                        oppsett til spesielle anledninger
+                        Vi tilbyr klipp for dame, herre og barn, samt farge og toner til spesielle anledninger
                         <br/> Vi tilbyr også studentrabatt
                     </p>
                 </div>
@@ -48,7 +47,7 @@ function AboutUsInfo() {
                         <Button
                             href="/kontakt"
                         >
-                            Sporsmal? Ta kontakt
+                            Spørsmål? Ta kontakt
                         </Button>
                     </div>
                 </div>

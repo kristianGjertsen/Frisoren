@@ -22,16 +22,13 @@ function HomePage() {
                                     <span className="block text-accent-dark sm:ml-3 sm:inline">Presist håndverk</span>
                                 </h1>
                                 <p className="mt-4 max-w-lg text-sm text-muted sm:text-base">
-                                    Vi er tilbake i nyoppusset lokale i Dybdahls vei 3-5. Bestill
+                                    Vi er tilbake i nyoppusset lokale i Dybdahls veg 3-5. Bestill
                                     time, len deg tilbake og la oss ta oss av stilen.
                                 </p>
                             </div>
                             <div className="flex flex-wrap gap-3">
                                 <Button href="/kontakt">
                                     Bestill time
-                                </Button>
-                                <Button href="/produkter">
-                                    Se produkter
                                 </Button>
                             </div>
                         </div>
@@ -74,7 +71,7 @@ function HomePage() {
                             <p className="text-[0.7rem] uppercase tracking-[0.28em] text-accent-dark">
                                 Adresse
                             </p>
-                            <p className="mt-3 text-lg font-semibold text-text">Dybdahls vei 3-5</p>
+                            <p className="mt-3 text-lg font-semibold text-text">Dybdahls veg 3-5</p>
                             <p className="text-sm text-muted">7051 Trondheim</p>
                         </div>
                     </div>
