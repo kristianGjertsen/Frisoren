@@ -35,7 +35,7 @@ function HomePage() {
                         <div className="w-full">
                             <img
                                 src={entryImage}
-                                alt="bilde_av_inngang"
+                                alt="Bilde av inngangen"
                                 className="rounded-[var(--radius-image)] border-[var(--border-width)] border-border"
                             />
                         </div>

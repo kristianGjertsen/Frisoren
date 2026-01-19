@@ -5,7 +5,7 @@ function Footer() {
         <div className="flex flex-col gap-5 px-7 py-8 md:hidden">
           <div>
             <span className="block font-['Playfair_Display'] text-2xl tracking-[0.06em]">
-              Frisor'n
+              Frisør'n
             </span>
             <span className="text-xs uppercase tracking-[0.25em] text-muted">
               Dybdahls veg 3-5
@@ -26,7 +26,7 @@ function Footer() {
           <div className="space-y-3">
             <div>
               <span className="block font-['Playfair_Display'] text-2xl tracking-[0.06em]">
-                Frisor'n
+                Frisør'n
               </span>
               <span className="text-xs uppercase tracking-[0.25em] text-muted">
                 Dybdahls veg 3-5

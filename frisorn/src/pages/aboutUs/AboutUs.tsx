@@ -19,7 +19,7 @@ function AboutUs() {
                     <div className="w-150 rounded-[var(--radius-card)] border-[var(--border-width)] border-border">
                         <div className="aspect-video">
                             <iframe
-                                title="Kart over Frisørn"
+                                title="Kart over Frisør'n"
                                 src={embedSrc}
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
