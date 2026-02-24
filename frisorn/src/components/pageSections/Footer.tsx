@@ -4,7 +4,7 @@ function Footer() {
       <div className="w-full rounded-[var(--radius-shell)] border-[var(--border-width)] border-border bg-surface shadow-elevated">
         <div className="flex flex-col gap-5 px-7 py-8 md:hidden">
           <div>
-            <span className="block font-['Playfair_Display'] text-2xl tracking-[0.06em]">
+            <span className="block font-secondary text-2xl tracking-[0.06em]">
               Frisør'n
             </span>
             <span className="text-xs uppercase tracking-[0.25em] text-muted">
@@ -25,7 +25,7 @@ function Footer() {
         <div className="hidden gap-8 px-7 py-8 md:grid md:grid-cols-3 lg:grid-cols-[1.2fr_1fr_1fr]">
           <div className="space-y-3">
             <div>
-              <span className="block font-['Playfair_Display'] text-2xl tracking-[0.06em]">
+              <span className="block font-secondary text-2xl tracking-[0.06em]">
                 Frisør'n
               </span>
               <span className="text-xs uppercase tracking-[0.25em] text-muted">
@@ -35,7 +35,7 @@ function Footer() {
           </div>
 
           <div className="space-y-2 text-sm">
-            <h3 className="font-['Playfair_Display'] text-lg">Kontakt</h3>
+            <h3 className="font-secondary text-lg">Kontakt</h3>
             <div className="flex items-center gap-2 text-muted">
               <svg
                 viewBox="0 0 24 24"
@@ -96,7 +96,7 @@ function Footer() {
           </div>
 
           <div className="space-y-3 text-sm">
-            <h3 className="font-['Playfair_Display'] text-lg">Åpningstider</h3>
+            <h3 className="font-secondary text-lg">Åpningstider</h3>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="space-y-1 text-muted">
                 <p>Mandag: 09:00 - 17:00</p>

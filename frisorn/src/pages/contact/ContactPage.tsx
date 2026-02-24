@@ -9,7 +9,7 @@ function ContactPage() {
             <p className="text-[0.9rem] uppercase tracking-[0.3em] text-accent-dark">
               Kontakt
             </p>
-            <h2 className="mt-2 font-['Playfair_Display'] text-2xl text-text sm:text-3xl">
+            <h2 className="mt-2 font-secondary text-2xl text-text sm:text-3xl">
               Kontakt oss
             </h2>
           </div>
@@ -36,7 +36,7 @@ function ContactPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.81.3 1.6.54 2.36a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.72-1.06a2 2 0 0 1 2.11-.45c.76.24 1.55.42 2.36.54a2 2 0 0 1 1.72 2z" />
                   </svg>
                 </span>
-                <h3 className="font-['Playfair_Display'] text-lg text-text">
+                <h3 className="font-secondary text-lg text-text">
                   Telefon og e-post
                 </h3>
               </div>
@@ -68,7 +68,7 @@ function ContactPage() {
                     <circle cx="12" cy="12" r="3" />
                   </svg>
                 </span>
-                <h3 className="font-['Playfair_Display'] text-lg text-text">Besøk oss</h3>
+                <h3 className="font-secondary text-lg text-text">Besøk oss</h3>
               </div>
               <div className="mt-2 space-y-1 text-muted">
                 <p>Dybdahls veg 3-5</p>
@@ -94,7 +94,7 @@ function ContactPage() {
                   <path d="M12 7v5l3 3" />
                 </svg>
               </span>
-              <h3 className="font-['Playfair_Display'] text-lg text-text">Åpningstider</h3>
+              <h3 className="font-secondary text-lg text-text">Åpningstider</h3>
             </div>
             <ul className="mt-2 space-y-1 text-muted">
               <li>Mandag: 09:00 - 17:00</li>

@@ -9,19 +9,22 @@ type ButtonProps = {
   children: ReactNode
 }
 
-// Standard class: kolliderende klasser i className vinner siden de kommer sist
+// Standard class:  tailwind-Klasser i className overskriver baseCase
 const baseClass =
   'bg-button border-[var(--border-width)] border-border text-button-text inline-flex items-center justify-center gap-2 rounded-[var(--radius-pill)] px-6 py-2.5 font-semibold '
 
-const hoverAnimClass = "hover:ring-2 hover:ring-accent"
+const hoverAnimClass = "hover:ring-2 transform  hover:ring-accent"
 const fullClass = `${baseClass} ${hoverAnimClass}`
 function Button({ href, onClick, className, children }: ButtonProps) {
+
+  //Standard classen, samler all styling i samme og settes på elementet
   const classes = [fullClass, className].filter(Boolean).join(' ')
 
 
   if (href) {
     return (
-      <a href={href} onClick={onClick as MouseEventHandler<HTMLAnchorElement>} className={classes}>
+      <a href={href} onClick={onClick as MouseEventHandler<HTMLAnchorElement>} 
+        className={classes}>
         {children}
       </a>
     )

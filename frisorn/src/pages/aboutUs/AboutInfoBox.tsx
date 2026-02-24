@@ -21,7 +21,7 @@ function AboutUsInfo() {
                     <p className="text-[0.7rem] uppercase tracking-[0.3em] text-accent-dark">
                         Om oss
                     </p>
-                    <h2 className="mt-2 font-['Playfair_Display'] text-2xl text-text sm:text-3xl">
+                    <h2 className="mt-2 font-secondary text-2xl text-text sm:text-3xl">
                         Lokal frisør med fokus på kvalitet.
                     </h2>
                     <p className="mt-3 text-sm text-muted sm:text-base">
@@ -36,7 +36,7 @@ function AboutUsInfo() {
                     </p>
                 </div>
                 <div className="rounded-[var(--radius-card)] border-[var(--border-width)] border-border bg-surface-warm p-6">
-                    <h3 className="font-['Playfair_Display'] text-lg text-text">
+                    <h3 className="font-secondary text-lg text-text">
                         Det vi lover
                     </h3>
                     <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-text marker:text-accent-dark">

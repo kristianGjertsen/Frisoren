@@ -9,7 +9,7 @@ import entryImage from '../../assets/SaloonImages/inngang.jpg'
 function HomePage() {
     return (
         <>
-            <section>
+            <section className='pb-10'>
                 <Box className="w-full bg-hero p-8 sm:p-10">
                     <div className="grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr]">
                         <div className="flex flex-col gap-6">
@@ -17,11 +17,11 @@ function HomePage() {
                                 <p className="text-[0.7rem] uppercase tracking-[0.3em] text-accent-dark">
                                     Velkommen til oss!
                                 </p>
-                                <h1 className="mt-3 font-['Playfair_Display'] text-3xl text-accent sm:text-4xl lg:text-5xl leading-tight">
-                                    <span className="block sm:inline">Personlig frisør</span>
+                                <h1 className="mt-3 font-secondary text-3xl text-accent sm:text-4xl lg:text-5xl leading-tight">
+                                    <span className=" block sm:inline">Personlig frisør</span>
                                     <span className="block text-accent-dark sm:ml-3 sm:inline">Presist håndverk</span>
                                 </h1>
-                                <p className="mt-4 max-w-lg text-sm text-muted sm:text-base">
+                                <p className="mt-4 font-secondary max-w-lg text-sm text-muted sm:text-base">
                                     Vi er tilbake i nyoppusset lokale i Dybdahls veg 3-5. Bestill
                                     time, len deg tilbake og la oss ta oss av stilen.
                                 </p>
