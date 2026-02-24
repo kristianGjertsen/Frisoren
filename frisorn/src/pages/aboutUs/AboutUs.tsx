@@ -12,7 +12,7 @@ function AboutUs() {
             <AboutUsInfo />
 
             <div className="mt-20 w-full rounded-[var(--radius-shell)]">
-                <h3 className="mb-5 text-center font-['Playfair_Display'] text-3xl text-text">
+                <h3 className="mb-5 text-center font-secondary text-3xl text-text">
                     Du finner oss på {ADDRESS}
                 </h3>
                 <div className="flex justify-center">
